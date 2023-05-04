@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+body{
+	background-color: lightgrey;
+}
+
+header{
+	background-color: cyan;
+	color: white;
+	padding: 20px;
+}
+.utama {
+	max-width: 1080px;
+	margin: 20px auto;
+	background-color: white;
+	padding: 15px;
+	overflow: hidden;
+}
+.navigasi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: darkblue;
+	font-size: 20px;
+	font-weight: bold;
+}
+.navigasi li {
+	float: left;
+}
+
+.navigasi li a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
+
+.navigasi li a:hover {
+	background-color:cyan;
+	transition-duration: 2s;
+}
+.menu-kiri {
+	float: left;
+	width: 75%;
+	background: white;
+	padding: 20px;	
+}
+.menu-kanan {
+	float: left;
+	width: 25%;
+	height: 585px;
+	background: cyan;
+	padding: 20px;	
+}
+.text p {
+	margin-top:5px;
+	margin-left:5px;
+	margin-bottom:5px;
+	font-weight: bold;
+	font-size:15px;
+}
+.kotak ol {
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+footer {
+	clear: both;
+	background-color: cyan;
+	color: black;
+	padding: 15px;
+	text-align: center;
+}
